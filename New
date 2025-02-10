@@ -1,0 +1,7 @@
+mkdir -p project_workspace
+
+for i in A B C
+do
+  mkdir -p project_workspace/team-$i
+  touch project_workspace/team-$i/README.md
+done
